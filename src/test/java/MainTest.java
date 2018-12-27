@@ -12,6 +12,7 @@ public class MainTest {
     public void testDoMyself() {
         IBuyHouse iBuyHouse = new BuyHouseDelegation();
         iBuyHouse.buyHouse();
+        System.out.println("");
     }
 
 /*
